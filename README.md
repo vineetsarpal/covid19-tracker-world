@@ -35,7 +35,7 @@ RStudio:
 * Updating the existing file each time instead of replacing it
 
 Windows:
-* Using Windows task scheduler to schedule the R script to run daily and fetch the latest data
+* Using Windows task scheduler to schedule the R script to run daily and fetch the latest data then post to google drive
 
 Tableau:
 * Using the 'Google Sheets' connector in Tableau to conenct to the Google sheets posted by the above process
