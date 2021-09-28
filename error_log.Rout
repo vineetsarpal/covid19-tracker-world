@@ -1,0 +1,16 @@
+Rows: 119672 Columns: 65
+-- Column specification -----------------------------------------------------------------------------
+Delimiter: ","
+chr   (4): iso_code, continent, location, tests_units
+dbl  (60): total_cases, new_cases, new_cases_smoothed, total_deaths, new_deaths, new_deaths_smoot...
+date  (1): date
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Auto-refreshing stale OAuth token.
+i A Drive file already exists at this path. Calling `drive_update()`.
+File updated:
+* 'covid_data_vaccine_new_cases_latest' <id: 1fNpfoA_ot77A7NOhTFJvZaeqnWxEuXNThMRqzNGPFCA>
+i A Drive file already exists at this path. Calling `drive_update()`.
+File updated:
+* 'covid_data_cases_deaths_over_time' <id: 1ILvwOXP8QHBlkLi-eWJpZlS3Nu6ad7eRcjiURqiQ9XI>
