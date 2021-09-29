@@ -19,8 +19,8 @@ A dashboard displaying the:
 ### Tools/Languages used:
 * R
 * RStudio
-* Google drive
-* Google sheets
+* Google Drive
+* Google Sheets
 * Windows Task scheduler
 * Tableau (public) online and desktop
 
@@ -30,14 +30,18 @@ RStudio:
 * The data is provided in multiple formats. We are using the csv file
 * The csv file is read as a dataframe in R using RStudio
 * Cleaning, formating and reorganizing the data to extract the necessary information we need
-* Connecting to the Goolge drive via the 'googledrive' package
-* Writing the reorganized dataframes to googledrive as Google sheets
+* Connecting to Goolge Drive via the 'googledrive' package
+* Writing the reorganized dataframes to Google Drive as Google Sheets
 * Updating the existing file each time instead of replacing it
 
 Windows:
-* Using Windows task scheduler to schedule the R script to run daily and fetch the latest data then post to google drive
+* Using Windows Task Scheduler to schedule the R script to run daily and fetch the latest data then post to google drive
 
 Tableau:
 * Using the 'Google Sheets' connector in Tableau to conenct to the Google sheets posted by the above process
 * Creating the visualtiions as per the desired output and combining them in a single dashboard
 * Saving to Tableau (public) online with the option to sync the data
+
+### Additional Notes
+* In the Tableau dashboad there is 'Day of Date' information present when we hover items in the visualizations, this 'Day of Date' corresponds to the latest date for that particular information. So, if 'Day of Date' for some information is quite old, it means that information hasn't been updated since that date
+* Task Scheduler requires the system to be up in order to run the scheduled tasks
